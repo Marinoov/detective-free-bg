@@ -21,14 +21,14 @@ header {
     color: #fff;
     padding: 20px;
     display: flex;
-    flex-direction: column; /* Подрежда лога + съдържание едно под друго */
+    flex-direction: column; 
     align-items: center;
     text-align: center;
 }
 
 
 
-/* Контейнерът за съдържанието в центъра */
+
 .header-container {
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@ header {
     width: 100%;
 }
 
-/* Основен текст */
+
 header h1 {
     margin: 0;
     font-size: 1.8rem;
@@ -53,42 +53,41 @@ header h1 {
 }
 
 header h1 p {
-    -webkit-text-fill-color: #013220; /* Презаписва прозрачния текст */
-    background: none; /* Премахва градиента */
-    display: block; /* Уверява се, че текстът е на нов ред */
+    -webkit-text-fill-color: #013220; 
+    background: none; 
+    display: block; 
     font-size: 1rem;
     margin: 5px 0 0;
 }
 
-/* Стилове за изображенията на момчето и момичето */
+
 .boy, .girl {
     max-width: 100px;
     height: auto;
     flex-shrink: 0;
 }
 
-/* Лого в горния ляв ъгъл */
+
 .logo-left {
     position: absolute;
     top: 10px;
     left: 10px;
-    width: 80px; /* Размер за десктоп */
+    width: 80px; 
     height: auto;
 }
 
-/* Лого в горния десен ъгъл */
+
 .logo-right {
     position: absolute ;
     top: 10px;
     right: 10px;
-    width: 80px; /* Размер за десктоп */
+    width: 80px; 
     height: auto;
 }
 
-/* Нов контейнер за логата */
 .header-top {
 	display: flex;
-    justify-content: space-between; /* Логата в двата края */
+    justify-content: space-between; 
     align-items: center;
     width: 100%;
     max-width: 1200px;
@@ -97,14 +96,14 @@ header h1 p {
 }
 
 
-/* Стилове за изображенията на момчето и момичето */
+
 .boy, .girl {
     max-width: 100px;
     height: auto;
     flex-shrink: 0;
 }
 
-/* Логата */
+
 .logo-left, .logo-right {
     width: 80px;
     height: auto;
@@ -112,13 +111,13 @@ header h1 p {
 	
 }
 .subtitle {
-    -webkit-text-fill-color: #013220 !important; /* Презаписва стила на h1 */
-    background: none !important; /* Премахва градиента */
+    -webkit-text-fill-color: #013220 !important; 
+    background: none !important; 
 }
 
 
 
-/* Навигационна лента */
+
 .main-nav {
      background: linear-gradient(180deg, #f5f5f5 0%, #e0e0e0 100%);
   background-size: cover;
@@ -149,33 +148,33 @@ header h1 p {
     display: block;
 }
 
-/* Различни цветове за всяка връзка */
+
 .main-nav a.it {
-    color: #4A4A4A !important; /* Червено */
+    color: #4A4A4A !important; 
 }
 
 .main-nav a.business {
-    color: #2E2E2E!important; /* Синьо */
+    color: #2E2E2E!important; 
 }
 
 .main-nav a.culinary {
-    color: #4A4A4A !important; /* Зелено */
+    color: #4A4A4A !important;
 }
 
 .main-nav a.paronims {
-    color: #2E2E2E !important; /* Жълто */
+    color: #2E2E2E !important; 
 }
 .main-nav a.other {
-    color: #4A4A4A !important; /* Жълто */
+    color: #4A4A4A !important; 
 }
 
-/* Промяна на цвета при hover */
+
 .main-nav a:hover {
     background-color: gray;
     border-radius: 5px;
-    color: white !important; /* Бял цвят при hover */
+    color: white !important; 
 }
-/* Секции */
+
 main section {
     padding: 20px;
     margin: 20px;
@@ -186,7 +185,7 @@ main section {
 
 
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 10px 0;
@@ -195,7 +194,7 @@ footer {
     font-size: 0.9rem;
 }
 
-/* За големи екрани - десктоп */
+
 nav ul {
     display: flex;
     justify-content: space-around;
@@ -203,12 +202,12 @@ nav ul {
     list-style-type: none;
 }
 
-/* За мобилни устройства */
+
 @media (max-width: 768px) {
     nav ul {
-       display: flex; /* Flexbox е активиран */
+       display: flex; 
         text-align: center;
-        flex-direction: column; /* Вертикално подреждане */
+        flex-direction: column; 
     }
 
     nav ul li {
@@ -218,20 +217,20 @@ nav ul {
 }
 @media (max-width: 768px) {
     .header-container {
-        flex-direction: ; /* Подрежда съдържанието вертикално */
+        flex-direction: ; 
         gap: 10px;
     }
 
     .boy, .girl {
-        max-width: 70px; /* Намаляване на размерите на мобилни */
+        max-width: 70px; 
     }
 
     header h1 {
-        font-size: 1.5rem; /* Намаляване на шрифта */
+        font-size: 1.5rem; 
     }
 
     .logo-left, .logo-right {
-        width: 50px; /* Намалява размерите на логата за мобилни */
+        width: 50px; 
     }
 }
 @media (max-width: 1080px) {
@@ -242,15 +241,15 @@ nav ul {
     }
 
     .boy, .girl {
-        max-width: 70px; /* Намаляване на размерите на мобилни */
+        max-width: 70px; 
     }
 
     header h1 {
-        font-size: 1.5rem; /* Намаляване на шрифта */
+        font-size: 1.5rem; 
     }
 
     .logo-left, .logo-right {
-        width: 50px; /* Намалява размерите на логата за мобилни */
+        width: 50px; 
     }
 }
 
@@ -260,8 +259,8 @@ section{
 
 }
 #it{
-     position: relative; /* Позволява на вътрешните абсолютни елементи да се позиционират спрямо него */
-    overflow: hidden; /* Предотвратява излизането на фона извън секцията */
+     position: relative; 
+    overflow: hidden; 
 	
 }
 #it h2{
@@ -285,23 +284,22 @@ section{
 
 
 .butonit {
-    border: none; /* Махаме рамката */
-    border-radius: 50px; /* Елипсовидна форма */
-    background-color: #01016f; /* Тъмен син цвят */
-    color: white; /* Бял текст */
-    padding: 10px 30px; /* Увеличаваме вътрешните отстояния */
-    font-size: 15px; /* По-голям шрифт */
-    cursor: pointer; /* Показва курсор на ръка при посочване */
-    display: block; /* За да може margin: auto да сработи */
-    margin: 3px auto; /* Центриране на бутона */
+    border: none; 
+    border-radius: 50px; /
+    background-color: #01016f; 
+    color: white; 
+    padding: 10px 30px; 
+    font-size: 15px; 
+    cursor: pointer; 
+    display: block; 
+    margin: 3px auto; 
     text-align: center;
-    transition: 0.3s; /* Плавен ефект при ховър */
+    transition: 0.3s; 
 	text-decoration:none;
 }
-/* Ефект при задържане с мишката */
+
 .butonit:hover {
-    background-color: #0303a6; /* По-светъл син */
-}
+    background-color: #0303a6; 
 
 #business{
 	
@@ -324,17 +322,17 @@ section{
 	 
 }
 .butonbiz {
-    border: none; /* Махаме рамката */
-    border-radius: 50px; /* Елипсовидна форма */
+    border: none; 
+    border-radius: 50px; 
     background-color: #0B3D02 ;
-    color: white; /* Бял текст */
-    padding: 10px 30px; /* Увеличаваме вътрешните отстояния */
-    font-size: 15px; /* По-голям шрифт */
-    cursor: pointer; /* Показва курсор на ръка при посочване */
-    display: block; /* За да може margin: auto да сработи */
-    margin: 3px auto; /* Центриране на бутона */
+    color: white; 
+    padding: 10px 30px; 
+    font-size: 15px; 
+    cursor: pointer; 
+    display: block; 
+    margin: 3px auto; 
     text-align: center;
-    transition: 0.3s; /* Плавен ефект при ховър */
+    transition: 0.3s;
 	text-decoration:none;
 }
 .butonbiz:hover {
@@ -343,8 +341,8 @@ section{
 
 #culinary{
 	 
-    position: relative; /* Позволява на вътрешните абсолютни елементи да се позиционират спрямо него */
-    overflow: hidden; /* Предотвратява излизането на фона извън секцията */
+    position: relative; 
+    overflow: hidden; 
 	 
 }
 #culinary h2{
@@ -362,17 +360,17 @@ section{
 		font-size: 20px;
 }
 .butoncul {
-    border: none; /* Махаме рамката */
-    border-radius: 50px; /* Елипсовидна форма */
+    border: none; 
+    border-radius: 50px; 
     background-color: #7A1C1C;
-    color: white; /* Бял текст */
-    padding: 10px 30px; /* Увеличаваме вътрешните отстояния */
-    font-size: 15px; /* По-голям шрифт */
-    cursor: pointer; /* Показва курсор на ръка при посочване */
-    display: block; /* За да може margin: auto да сработи */
-    margin: 3px auto; /* Центриране на бутона */
+    color: white; 
+    padding: 10px 30px; 
+    font-size: 15px; 
+    cursor: pointer; 
+    display: block; 
+    margin: 3px auto; 
     text-align: center;
-    transition: 0.3s; /* Плавен ефект при ховър */
+    transition: 0.3s; 
 	text-decoration:none;
 }
 .butoncul:hover {
@@ -380,8 +378,8 @@ section{
 }
 
 #paronims{
- position: relative; /* Позволява на вътрешните абсолютни елементи да се позиционират спрямо него */
-    overflow: hidden; /* Предотвратява излизането на фона извън секцията */}
+ position: relative; 
+    overflow: hidden; }
 #paronims h2, #paronims a{
 	color:#D9C28A;
 }
@@ -393,20 +391,20 @@ section{
 		font-size: 20px;
 }
 #other{
- position: relative; /* Позволява на вътрешните абсолютни елементи да се позиционират спрямо него */
-    overflow: hidden; /* Предотвратява излизането на фона извън секцията */}
+ position: relative; 
+    overflow: hidden; }
 .butonpar {
-    border: none; /* Махаме рамката */
-    border-radius: 50px; /* Елипсовидна форма */
+    border: none; 
+    border-radius: 50px; 
     background-color: #705A00;
-    color: white; /* Бял текст */
-    padding: 10px 30px; /* Увеличаваме вътрешните отстояния */
-    font-size: 15px; /* По-голям шрифт */
-    cursor: pointer; /* Показва курсор на ръка при посочване */
-    display: block; /* За да може margin: auto да сработи */
-    margin: 3px auto; /* Центриране на бутона */
+    color: white; 
+    padding: 10px 30px; 
+    font-size: 15px;
+    cursor: pointer; 
+    display: block; 
+    margin: 3px auto; 
     text-align: center;
-    transition: 0.3s; /* Плавен ефект при ховър */
+    transition: 0.3s; 
 	text-decoration:none;
 }
 .butonpar:hover {
@@ -417,17 +415,17 @@ a{
 
 }
 .butonexit {
-    border: none; /* Махаме рамката */
-    border-radius: 50px; /* Елипсовидна форма */
+    border: none; 
+    border-radius: 50px;
     background-color: #705A00;
-    color: white; /* Бял текст */
-    padding: 10px 30px; /* Увеличаваме вътрешните отстояния */
-    font-size: 15px; /* По-голям шрифт */
-    cursor: pointer; /* Показва курсор на ръка при посочване */
-    display: block; /* За да може margin: auto да сработи */
+    color: white; 
+    padding: 10px 30px; 
+    font-size: 15px; 
+    cursor: pointer; 
+    display: block; 
     margin: 3px;
     text-align: center;
-    transition: 0.3s; /* Плавен ефект при ховър */
+    transition: 0.3s; 
 	text-decoration:none;
 }
 .butonpar:hover {
@@ -444,17 +442,17 @@ a:hover {
 	margin-right: 10px;
 }
 .itback{
-	  background-size: cover; /* За да покрие цялата област */
-    background-position: center; /* Центрира изображението */
-    background-repeat: no-repeat; /* Избягва повтарянето */
+	  background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 
 #business {
-    position: relative; /* Позволява на вътрешните абсолютни елементи да се позиционират спрямо него */
-    overflow: hidden; /* Предотвратява излизането на фона извън секцията */
+    position: relative; 
+    overflow: hidden; 
 }
 .background-overlay {
-    position: absolute; /* Позиционира се абсолютно спрямо родителя */
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -464,19 +462,19 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
    
-    z-index: 1; /* Поставя се зад текста */
+    z-index: 1; 
 }
 
 .content {
-    position: relative; /* Позволява на текста да бъде над фона */
-    z-index: 2; /* Поставя текста над фона */
-    padding: 20px; /* Добавя подходящо отстъпление */
+    position: relative; 
+    z-index: 2; 
+    padding: 20px; 
 	 position: relative;
     z-index: 2;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.5); /* Черен фон с 50% прозрачност */
-    color: white; /* Бял текст за добър контраст */
-    border-radius: 10px; /* Леко заобляне за по-модерен вид */
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    border-radius: 10px; 
 
 	
 	
@@ -487,7 +485,7 @@ h2, p, a {
 	
 }
 .background-overlayit {
-    position: absolute; /* Позиционира се абсолютно спрямо родителя */
+    position: absolute; 
     top: 0;
     left: 0;
     width: 100%;
@@ -497,11 +495,11 @@ h2, p, a {
     background-position: center;
     background-repeat: no-repeat;
 
-    z-index: 1; /* Поставя се зад текста */
+    z-index: 1; 
 	
 }
 .background-overlayt {
-    position: absolute; /* Позиционира се абсолютно спрямо родителя */
+    position: absolute; 
     top: 0;
     left: 0;
     width: 100%;
@@ -510,10 +508,10 @@ h2, p, a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    z-index: 1; /* Поставя се зад текста */
+    z-index: 1; 
 }
 .background-overlayp {
-    position: absolute; /* Позиционира се абсолютно спрямо родителя */
+    position: absolute; 
     top: 0;
     left: 0;
     width: 100%;
@@ -522,10 +520,10 @@ h2, p, a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    z-index: 1; /* Поставя се зад текста */
+    z-index: 1; 
 }
 .background-overlayo {
-    position: absolute; /* Позиционира се абсолютно спрямо родителя */
+    position: absolute; 
     top: 0;
     left: 0;
     width: 100%;
@@ -534,23 +532,23 @@ h2, p, a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    z-index: 1; /* Поставя се зад текста */
+    z-index: 1; 
 }
 .flex{
 	display:flex;
 }
 .butonoth {
-    border: none; /* Махаме рамката */
-    border-radius: 50px; /* Елипсовидна форма */
+    border: none; 
+    border-radius: 50px; 
     background-color: #7740B5  ; 
-    color: white; /* Бял текст */
-    padding: 10px 30px; /* Увеличаваме вътрешните отстояния */
-    font-size: 15px; /* По-голям шрифт */
-    cursor: pointer; /* Показва курсор на ръка при посочване */
-    display: block; /* За да може margin: auto да сработи */
-    margin: 3px auto; /* Центриране на бутона */
+    color: white;
+    padding: 10px 30px; 
+    font-size: 15px; 
+    cursor: pointer; 
+    display: block; 
+    margin: 3px auto; 
     text-align: center;
-    transition: 0.3s; /* Плавен ефект при ховър */
+    transition: 0.3s; 
 	text-decoration:none;
 }
 .butonoth:hover {
