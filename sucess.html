@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Свържи се с нас</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+        }
+        .container {
+               width: 90%; /* За мобилни устройства */
+				max-width: 600px; /* За да не става твърде широк на големи екрани */
+				background: linear-gradient(rgba(210, 180, 140, 0.9), rgba(160, 120, 80, 0.9));
+				padding: 20px;
+				border-radius: 8px;
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+				margin: 10px auto;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+			color:  #D6FFE0;
+        }
+
+    
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s;
+	background-color: #3D7A3D;
+ display: block;
+    margin: 10px auto;
+        }
+        button:hover {
+               background-color: #0B3D02 ;
+        }
+        
+        /* Адаптивност за мобилни устройства */
+        @media (max-width: 768px) {
+            .container {
+                width: 100%;
+                max-width: none;
+                padding: 15px;
+                box-shadow: none;
+                border-radius: 0;
+                margin: 10px;
+            }
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-top">
+        <img src="sugb.jpg" class="logo-left" />
+        <img src="logo.png" class="logo-right"  />
+    </div>
+
+    <div class="header-container">
+        <img src="boy.png" class="boy" />
+        <h1>ПРОФЕСИОНАЛЕН И ПРОФИЛИРАН ДЕТЕКТИВ 
+            <br>
+            <p class="subtitle">Уебречник в помощ на зрелостниците от випуск 2025</p>
+        </h1>
+        <img src="girl.png" class="girl">
+    </div>
+</header>
+
+<div class="container">
+
+    <h2>Вашето съобщение е изпратено успешно!<br>
+	Ще се свържем с Вас възможно най-скоро!</h2>
+	<a href="index.html"><button class="exit">Назад</button></a>
+	
+    
+</div>
+
+</body>
+</html>
+
